@@ -1,0 +1,44 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": {
+    "name": "React Electron, Inc.",
+    "email": "support@react.com",
+    "url": "http://reactelectron.com"
+  },
+  "homepage": "./",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^31.3.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.coderjeet.autoupdater",
+    "productName": "Autoupdater app",
+    "linux": {
+      "target": [
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "repository": "https://github.com/cyrilgupta/electron-autoupdater",
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+  },
+  "dependencies": {
+    "electron-updater": "^6.2.1"
+  }
+}
