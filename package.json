@@ -33,7 +33,7 @@
       "output": "dist"
     }
   },
-  "repository": "https://github.com/cyrilgupta/electron-autoupdater",
+  "repository": "https://github.com/vpics/my-electron-app",
   "publish": {
     "provider": "github",
     "releaseType": "release"
