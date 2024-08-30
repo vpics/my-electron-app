@@ -1,6 +1,6 @@
 {
   "name": "my-electron-app",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -19,7 +19,7 @@
     "electron-builder": "^24.13.3"
   },
   "build": {
-    "appId": "com.coderjeet.autoupdater",
+    "appId": "com.autoupdater",
     "productName": "Autoupdater app",
     "linux": {
       "target": [
